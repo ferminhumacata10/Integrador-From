@@ -1,0 +1,35 @@
+
+
+.banner__container--size{
+    height: 60vh;
+}
+
+
+
+@layer footer{
+    footer{
+        background-color: cadetblue;
+    }
+    footer a {
+        text-decoration: none !important;
+        color: white !important;
+    }
+    footer a:hover {
+        color:rgb(181, 252, 248) !important;
+        transform: scale(1.1);
+        transition: .0.5 all;
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        -webkit-transition: .0.5 all;
+        -moz-transition: .0.5 all;
+        -ms-transition: .0.5 all;
+        -o-transition: .0.5 all;
+}
+
+    footer div{
+        color: white;
+    }
+
+}
